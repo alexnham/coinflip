@@ -1,2 +1,2 @@
-# coinflip - using HTML,CSS,JS
+# coinflip
 alexnham.github.io/coinflip
