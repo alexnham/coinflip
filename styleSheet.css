@@ -26,13 +26,16 @@ input[type="radio"]:checked + label {
     color: green;
 }
 #heads {
+    cursor: pointer;
     margin-right: 200px;
 }
 
 #tails {
+    cursor: pointer;
     margin-left:100px;
 }
 #flip {
+    cursor: pointer;
     margin-top: 100px;
     width: 100px;
     height:50px;
