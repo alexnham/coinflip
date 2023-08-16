@@ -1,9 +1,17 @@
+
 body {
     display: flex;
     flex-direction: column;
     justify-content:center;
     background-color: #504242;
     color: white;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        transform: scale(0.6);
+        
+    }
+
 }
 
 
@@ -19,7 +27,6 @@ body {
 
 #buttons {
     width:auto;
-    margin-top:10px;
     display:inline-flex;
     table-layout: fixed;
     color:white;
@@ -30,7 +37,7 @@ input[type="radio"]:checked + label {
 }
 #heads {
     cursor: pointer;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 #tails {
